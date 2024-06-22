@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>src.test.java.Feature.api</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">2</div>
+            
+<div class="bg-danger" id="nav-fail">0</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2024-06-22 02:45:09 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1:2]">[1:2] get course details </a>
+</div>
+<div class="nav-item passed">
+<a href="#[2:7]">[2:7] get upcoming event details </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/Feature/api.feature</span><span class="feature-description">GET API feature</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:2]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:2]</span><span class="scenario-name">get course details </span>
+</div>
+<div class="scenario-time passed">ms: 1921</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="1">
+<div class="step-ref passed">1</div>
+<div class="step-cell passed">Given url 'https://webapi.cetpainfotech.com/api/courses'</div>
+</div>
+<div class="time-cell passed">6</div>
+</div>
+<div class="preformatted" data-parent="1">14:45:01.960 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="2">
+<div class="step-ref passed">2</div>
+<div class="step-cell passed">When method GET</div>
+</div>
+<div class="time-cell passed">1915</div>
+</div>
+<div class="preformatted" data-parent="2">14:45:02.275 request:
+1 &gt; GET https://webapi.cetpainfotech.com/api/courses
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: webapi.cetpainfotech.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_412-internal)
+
+14:45:03.868 response time in milliseconds: 1589.79
+1 &lt; 200
+1 &lt; Cache-Control: no-cache
+1 &lt; Content-Length: 3022
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Sat, 22 Jun 2024 09:15:03 GMT
+1 &lt; Expires: -1
+1 &lt; Pragma: no-cache
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; X-AspNet-Version: 4.0.30319
+1 &lt; X-Powered-By: ASP.NET
+1 &lt; X-Powered-By-Plesk: PleskWin
+[{"id":398,"name":"Python"},{"id":118,"name":"Data Science"},{"id":67,"name":"Artificial Intelligence"},{"id":306,"name":"Machine Learning"},{"id":300,"name":"JAVA"},{"id":550,"name":"Angular"},{"id":381,"name":"PHP"},{"id":495,"name":"REACT JS"},{"id":668,"name":"Full Stack development using React"},{"id":667,"name":"Full Stack development using Angular"},{"id":623,"name":"Full Stack Development with Python"},{"id":758,"name":"Front End Development "},{"id":2840,"name":"Microsoft Dynamics"},{"id":792,"name":".Net Core"},{"id":649,"name":"Advance JAVA"},{"id":56,"name":"ANDROID"},{"id":59,"name":"Ansys"},{"id":70,"name":"AUTO CAD"},{"id":662,"name":"C Language"},{"id":85,"name":"C++"},{"id":88,"name":"CATIA"},{"id":90,"name":"CCNA"},{"id":93,"name":"CCNP"},{"id":638,"name":"CLOUD(AWS)"},{"id":642,"name":"CLOUD(AZURE)"},{"id":114,"name":"Data Analytics"},{"id":121,"name":"Data Structure"},{"id":123,"name":"Deep Learning"},{"id":622,"name":"Devops"},{"id":128,"name":"Digital Marketing"},{"id":760,"name":"Diploma in Business Analytics"},{"id":753,"name":"Diploma in Civil CAD Designing"},{"id":789,"name":"Diploma in Fullstack Development Sem-1 "},{"id":752,"name":"Diploma in Mechanical CAD Designing"},{"id":146,"name":"Django"},{"id":526,"name":"E-Tabs"},{"id":201,"name":"EMBEDDED C"},{"id":272,"name":"Ethical Hacking"},{"id":784,"name":"Flutter"},{"id":511,"name":"HR Generalist"},{"id":294,"name":"IOT"},{"id":576,"name":"Java Frameworks"},{"id":653,"name":"JAVA Full Stack"},{"id":742,"name":"Laravel"},{"id":305,"name":"LINUX"},{"id":317,"name":"MCSE"},{"id":318,"name":"MEAN Stack"},{"id":557,"name":"MERN STACK"},{"id":454,"name":"MS SQL Server"},{"id":362,"name":"MSBI"},{"id":364,"name":"My SQL"},{"id":600,"name":"NODE JS"},{"id":516,"name":"Office 365"},{"id":371,"name":"Oracle (SQL/PLSQL)"},{"id":373,"name":"Oracle DBA"},{"id":778,"name":"Palo Alto"},{"id":377,"name":"PCB &amp; Ckt Design"},{"id":389,"name":"PLC &amp; Scada"},{"id":628,"name":"Power BI"},{"id":394,"name":"Primavera"},{"id":612,"name":"R Programming"},{"id":594,"name":"React Native"},{"id":411,"name":"Revit Architecture"},{"id":413,"name":"Revit Structure"},{"id":418,"name":"ROBOTICS"},{"id":788,"name":"SACDA"},{"id":643,"name":"SALESFORCE (ADMIN)"},{"id":781,"name":"Salesforce LWC"},{"id":644,"name":"SALESFORCE(DEVELOPER)"},{"id":713,"name":"SAP Ariba"},{"id":748,"name":"Sap Basis-Hana"},{"id":593,"name":"SAP HANA CO"},{"id":754,"name":"SAP TECHNICAL HANA(ABAP)"},{"id":733,"name":"SAP UI5 FIORI"},{"id":685,"name":"SAP(CRM) - HANA"},{"id":681,"name":"SAP(FI) - HANA"},{"id":691,"name":"SAP(FICO) - HANA"},{"id":689,"name":"SAP(HCM) - HANA"},{"id":693,"name":"SAP(MM) - HANA"},{"id":695,"name":"SAP(PP) - HANA"},{"id":683,"name":"SAP(SD) - HANA"},{"id":442,"name":"SAS"},{"id":445,"name":"SEO"},{"id":449,"name":"SolidWorks"},{"id":658,"name":"StaadPro"},{"id":530,"name":"TABLEAU"},{"id":606,"name":"TEKLA"},{"id":466,"name":"VLSI"},{"id":478,"name":"Web Designing"},{"id":5,"name":"3DS Max"},{"id":1815,"name":"Other"}]</div>
+<div class="step-row">
+<div class="step-container" id="3">
+<div class="step-ref passed">3</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[2:7]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [2:7]</span><span class="scenario-name">get upcoming event details </span>
+</div>
+<div class="scenario-time passed">ms: 5853</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">Given url 'https://api.events.bunkerfit.com/api/v1/events/homepage/upcoming-events/'</div>
+</div>
+<div class="time-cell passed">8</div>
+</div>
+<div class="preformatted" data-parent="4">14:45:03.921 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="5">
+<div class="step-ref passed">5</div>
+<div class="step-cell passed">When method GET</div>
+</div>
+<div class="time-cell passed">5845</div>
+</div>
+<div class="preformatted" data-parent="5">14:45:03.931 request:
+1 &gt; GET https://api.events.bunkerfit.com/api/v1/events/homepage/upcoming-events/
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: api.events.bunkerfit.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_412-internal)
+
+14:45:09.768 response time in milliseconds: 5832.62
+1 &lt; 200
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Headers: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, PATCH, OPTIONS, DELETE, PUT
+1 &lt; Access-Control-Expose-Headers: Content-Length,Content-Range
+1 &lt; Allow: GET, HEAD, OPTIONS
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json
+1 &lt; Date: Sat, 22 Jun 2024 09:15:09 GMT
+1 &lt; Referrer-Policy: same-origin
+1 &lt; Server: nginx/1.18.0 (Ubuntu)
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: [Accept-Encoding, Accept, Cookie]
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+{"count":12,"next":null,"previous":null,"results":[{"id":168,"lowest_cost_ticket":5000.0,"desktop_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/desktop_images/Copy_of_ROYAL_STARS_EVENT_20240612_132205_0000.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1b770c4b6ba9ed071a2e77c5b6c5cd51793043d062d01abe40f3152b7a800a35","mobile_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/mobile_images/Copy_of_ROYAL_STARS_EVENT_20240612_132205_0000.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=dc9aac00ba0bb2b6050c9d1834b650f2f337dafb17c337e1574d6e39843717c8","city":"Bengaluru","event_name":"Inter Corporate 5 A Side Football Tournament ","early_bird_tag":false,"end_datetime":"2024-06-23T13:00:00Z","start_datetime":"2024-06-22T03:30:00Z","filling_fast_event":false},{"id":173,"lowest_cost_ticket":199.0,"desktop_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/desktop_images/1150X300.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1d733d7bdb35309cdfdf112b687ad6a1de0b60d82d4692b8fe5a8c0b00e49d18","mobile_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/mobile_images/400X280.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a041bda0b74d028ee12c96136ce78a4242eef1a8d2eda4941d4ae67f901ea9bf","city":"Chennai","event_name":"RUN FOR DEMENTIA","early_bird_tag":false,"end_datetime":"2024-06-23T02:30:00Z","start_datetime":"2024-06-22T23:30:00Z","filling_fast_event":false},{"id":155,"lowest_cost_ticket":299.0,"desktop_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/desktop_images/3rdEditionChandigarhHalfMarathon.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d52b29f7562659933c2b27edae8b33e5fc0ed684b049789db1cfa17472473642","mobile_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/mobile_images/3rdEditionChandigarhHalfMarathon.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d45c5dcd413f458dfbf3f0d3c213b47da9c651a502c11a8e8c882c01cf4b00b1","city":"Chandigarh","event_name":"Sarmang Chandigarh Half Marathon Third Edition","early_bird_tag":false,"end_datetime":"2024-07-07T03:00:00Z","start_datetime":"2024-07-06T23:30:00Z","filling_fast_event":false},{"id":61,"lowest_cost_ticket":600.0,"desktop_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/desktop_images/Subheading_3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a10db4ca5bc5b232a2c969e392871982fb3de0fe70fd05da1157eda02783a74f","mobile_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/mobile_images/Subheading_3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=0e7677bb7e0611fe2445fd4000ef91f1565fddcc74b7aab67b091e6d2c6162af","city":"Chandigarh","event_name":"NBt Shaheed Run 1.0 - Chandigarh Half Marathon 2024","early_bird_tag":false,"end_datetime":"2024-07-14T04:30:00Z","start_datetime":"2024-07-13T23:30:00Z","filling_fast_event":false},{"id":172,"lowest_cost_ticket":750.0,"desktop_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/desktop_images/GMB_Main_poster.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7603b8e7688f5a65b407dad457d26c93d631c2033c507b5d15f4a1e24497092a","mobile_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/mobile_images/main_poster_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e9259e0eff476f5d98a5bca5274a1a7811aeb8785352a05ab5a613eb5e8eadef","city":"Delhi","event_name":"Beat the Heat","early_bird_tag":false,"end_datetime":"2024-07-14T04:00:00Z","start_datetime":"2024-07-14T00:05:00Z","filling_fast_event":false},{"id":169,"lowest_cost_ticket":600.0,"desktop_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/desktop_images/Blue_Football_Match_Your_Story_20240612_131128_0000.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=04ae51f87b47f25dce7b675135b56f98c4dc99354e279bc70ba26eebb9c9c1ae","mobile_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/mobile_images/Blue_Football_Match_Your_Story_20240612_131128_0000.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=4b2c3c12f8abb8146019a60709b56eeeb878ec46c365925f4e487d3854c08c3e","city":"Bengaluru","event_name":"Inter Corporate Badminton Tournament July 2024","early_bird_tag":false,"end_datetime":"2024-07-21T12:40:00Z","start_datetime":"2024-07-20T03:30:00Z","filling_fast_event":false},{"id":144,"lowest_cost_ticket":399.0,"desktop_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/desktop_images/1150_x_300_getmybib.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5b879f2c46a8dbe0952424b499eaf72a65c84d0471d744a7e341ee0ab3722929","mobile_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/mobile_images/400__x_280a_copy.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=751ac5b09f2178495c2f5a69134f613ccf3b10fa485430ddc8f98d572b80c0fd","city":"Chennai","event_name":"Run on World Population Day","early_bird_tag":false,"end_datetime":"2024-07-21T15:00:00Z","start_datetime":"2024-07-21T12:00:00Z","filling_fast_event":false},{"id":175,"lowest_cost_ticket":0.0,"desktop_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/desktop_images/Public_trip_wall_3_x_2_in_3_x_2_in_1150_x_300_px.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7a52f98025dd053a21e9645cc7cb139c1887a15c6f62df6fab5b07490418fbe1","mobile_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/mobile_images/Beige_and_Brown_Illustrated_Marathon_Challenge_Twitter_Po.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=9c69e625209ec7682a9e0b52cc83b1d4f2d4b10c711744d2062cd59a000b87bb","city":"Jaipur","event_name":"Koshiqa Stepathon Challenge","early_bird_tag":false,"end_datetime":"2024-09-18T18:30:00Z","start_datetime":"2024-07-21T18:30:00Z","filling_fast_event":false},{"id":137,"lowest_cost_ticket":1750.0,"desktop_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/desktop_images/yoddha_banner-03.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=aeceb423dfa554345286d891af9b1eafbb5de105130b10037c863c81ec2e04db","mobile_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/mobile_images/Yoddha_card-03_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5047fe045b003fd64b10c0db1d1f8af3d0004654f781faac1a23aed0160635d9","city":"Mumbai","event_name":"The Yoddha Race - Mumbai","early_bird_tag":false,"end_datetime":"2024-11-17T01:30:00Z","start_datetime":"2024-11-17T00:30:00Z","filling_fast_event":false},{"id":138,"lowest_cost_ticket":1750.0,"desktop_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/desktop_images/yoddha_banner-01.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1bea7fe17144eeae67b02564cd3f2c85094cd035c3aa789066ecf6d64d21aaf5","mobile_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/mobile_images/Yoddha_card-04.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=10a4d78f6d4058163edb1305a81bd2b1aef30664763ecf60343e4de0dfe3580f","city":"Hyderabad","event_name":"The Yoddha Race - Hyderabad","early_bird_tag":false,"end_datetime":"2024-12-01T01:30:00Z","start_datetime":"2024-12-01T00:30:00Z","filling_fast_event":false},{"id":139,"lowest_cost_ticket":1750.0,"desktop_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/desktop_images/yoddha_banner-04.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=56a8ecc5d5398e21a0b5e476b7aad232b0c577f9a5dab008dafa3b2dc04524b2","mobile_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/mobile_images/Yoddha_card-02.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=dc642abb3b72fd7978efc6ee08807679d7da5f54a380c1f2f5168d8ad0266298","city":"Bengaluru","event_name":"The Yoddha Race - Bengaluru","early_bird_tag":false,"end_datetime":"2024-12-08T01:30:00Z","start_datetime":"2024-12-08T00:30:00Z","filling_fast_event":false},{"id":140,"lowest_cost_ticket":1750.0,"desktop_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/desktop_images/yoddha_banner-02.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=126b5bc2a06bfcf6f17b1fa92c3b55222ab974a412f0fb81e21c2d751837e54d","mobile_image":"https://bunkerfit-ticketing-production.s3.amazonaws.com/ticketing/uploads/events/mobile_images/Yoddha_card-01_2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA6CGV6BVB6Z4KI75P%2F20240622%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240622T091509Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=625909338a3a7ebb3d124b7801bd241de480b251edf9710e18d58985fd782618","city":"Delhi","event_name":"The Yoddha Race - Delhi","early_bird_tag":false,"end_datetime":"2024-12-22T01:30:00Z","start_datetime":"2024-12-22T00:30:00Z","filling_fast_event":false}]}</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref passed">6</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>

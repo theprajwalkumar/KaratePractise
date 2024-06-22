@@ -1,0 +1,15 @@
+<testsuite failures="0" name="src/test/java/Feature/api.feature" skipped="0" tests="2" time="7.774212">
+  <testcase classname="src.test.java.Feature.api" name="get course details" time="1.921332">
+    <system-out>Given url 'https://webapi.cetpainfotech.com/api/courses' .................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.Feature.api" name="get upcoming event details" time="5.852881">
+    <system-out>Given url 'https://webapi.cetpainfotech.com/api/courses' .................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://api.events.bunkerfit.com/api/v1/events/homepage/upcoming-events/' . passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

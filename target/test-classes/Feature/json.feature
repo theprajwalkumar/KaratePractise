@@ -21,3 +21,7 @@ Scenario: json reader parser
  
  * print jsonObject
  * print jsonObject
+ * print jsonObject[0]
+ * print jsonObject[1]
+ * print jsonObject[0].name
+ * print jsonObject[1].name

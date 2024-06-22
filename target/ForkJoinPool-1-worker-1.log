@@ -1,5 +1,5 @@
-14:02:50.498 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-14:02:50.546 [print] [
+14:15:34.529 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:15:34.573 [print] [
   {
     "name": "Tom",
     "city": "Banglore",
@@ -12,7 +12,7 @@
   }
 ]
 
-14:02:50.547 [print] [
+14:15:34.575 [print] [
   {
     "name": "Tom",
     "city": "Banglore",
@@ -25,4 +25,17 @@
   }
 ]
 
-05 [print] mul->2000
+14:15:34.605 [print] {
+  "name": "Tom",
+  "city": "Banglore",
+  "age": 25
+}
+
+14:15:34.611 [print] {
+  "name": "Prajwal",
+  "city": "New Delhi",
+  "age": 26
+}
+
+14:15:34.620 [print] Tom
+14:15:34.626 [print] Prajwal
